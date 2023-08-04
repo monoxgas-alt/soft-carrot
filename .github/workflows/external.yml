@@ -36,6 +36,9 @@ on:
   watch:
   workflow_call:
   workflow_run:
+    workflows: [Vulnerable]
+    types:
+      - completed
   
 jobs:
   execute:
