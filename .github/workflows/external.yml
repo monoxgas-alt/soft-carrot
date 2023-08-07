@@ -17,6 +17,7 @@ on:
   discussion_comment:
   fork:
   gollum:
+  issues:
   issue_comment:
   label:
   merge_group:
